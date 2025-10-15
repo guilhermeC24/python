@@ -5,6 +5,7 @@ num2 = int(input("Insira o 2o número: "))
 num3 = int(input("Insira o 3o número: "))
 num_maior = num1
 num_menor = num1
+num_meio = num1
 if num2 > num_maior:
     num_maior = num2
 if num3 > num_maior:
@@ -13,4 +14,10 @@ if num2 < num_menor:
     num_menor = num2
 if num3 < num_menor:
     num_menor = num3
-print(f"Número maior: {num_maior}  &  Número menor: {num_menor}") 
+if (num1 != num_maior and num1 != num_menor):
+    num_meio = num1
+elif (num2 != num_maior and num2 != num_menor):
+    num_meio = num2
+else:
+    num_meio = num3
+print(f"Número maior: {num_maior}  &  Número menor: {num_menor}  &  Número do meio: {num_meio}") 
