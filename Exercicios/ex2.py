@@ -13,4 +13,4 @@ if num2 < num_menor:
     num_menor = num2
 if num3 < num_menor:
     num_menor = num3
-print(f"Número maior: {num_maior}  &  Número menor: {num_menor}")
+print(f"Número maior: {num_maior}  &  Número menor: {num_menor}") 
