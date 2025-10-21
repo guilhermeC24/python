@@ -1,4 +1,4 @@
-# Inserir 3 números e o programa dizer qual o maior e menor
+# Inserir 3 números e o programa dizer qual o maior e menor // e do meio
 
 num1 = int(input("Insira o 1o número: "))
 num2 = int(input("Insira o 2o número: "))
